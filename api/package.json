@@ -1,0 +1,16 @@
+{
+  "name": "githubloginserver",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev dev.js -p 3001"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
